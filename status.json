@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T13:11:36.129855+00:00",
+  "updatedAt": "2026-09-24T13:28:31.804236+00:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -71,7 +71,7 @@
       "title": "Woodeex",
       "category": "Films & créations",
       "status": "review",
-      "summary": "Fiançailles V19 corrigé et Expert V18 court : deux candidats à regarder et télécharger, avant validation commerciale.",
+      "summary": "Fiançailles V19 corrigé et transmis pour revue, avec Expert V18 court. Les deux films sont consultables et téléchargeables.",
       "url": "https://codenolimits.github.io/woodeex-revue-2409/",
       "accent": "#578770",
       "mark": "W",
@@ -120,9 +120,10 @@
         }
       ],
       "cover": "https://codenolimits.github.io/woodeex-revue-2409/fiancailles-poster.jpg",
-      "checkedAt": "2026-09-24T13:11:36.129855+00:00",
-      "statusLabel": "Candidat à validation",
-      "coverAlt": "Image du pilote Fiançailles Woodeex, version en revue"
+      "checkedAt": "2026-09-24T13:28:31.804236+00:00",
+      "statusLabel": "Envoyé · retour attendu",
+      "coverAlt": "Image du pilote Fiançailles Woodeex, version en revue",
+      "proof": "Le correctif V19 a été transmis au destinataire du projet après contrôle de la transition. L’accusé technique ne constitue pas une lecture ni une approbation commerciale."
     },
     {
       "id": "dreamnova",
@@ -497,9 +498,9 @@
     },
     {
       "title": "Woodeex",
-      "state": "Correctif publié · candidat à validation",
-      "done": "Fiançailles V19 remplace le passage à l’emballage non vérifié. La transition a été revue image par image et dans le lecteur public ; le téléchargement MP4 est disponible avec Expert V18.",
-      "next": "Achever la revue audiovisuelle et commerciale, puis enregistrer le retour client sur la version exacte livrée."
+      "state": "Correctif envoyé · retour client attendu",
+      "done": "Fiançailles V19 remplace le passage à l’emballage non vérifié. La transition a été revue puis la correction envoyée au destinataire du projet. Les deux MP4 restent accessibles.",
+      "next": "Enregistrer le retour client sur les versions exactes livrées et traiter les éventuelles corrections ; aucune approbation commerciale n’est revendiquée."
     },
     {
       "title": "DreamNova Studio",
