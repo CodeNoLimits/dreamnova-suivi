@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T04:37:17+00:00",
+  "updatedAt": "2026-09-24T08:38:44+03:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -127,7 +127,7 @@
       "title": "DreamNova Studio",
       "category": "Sites & expériences",
       "status": "available",
-      "summary": "Les réalisations du studio, une présentation classique et un univers immersif, accessibles en trois langues.",
+      "summary": "Les réalisations du studio et un univers immersif renouvelé en huit étapes, en français, anglais et hébreu.",
       "url": "https://dreamnova.studio/",
       "accent": "#5b62c9",
       "mark": "DN",
@@ -138,7 +138,7 @@
       ],
       "notes": [
         "Les pages présentent les réalisations et les offres disponibles. Chaque projet conserve son propre état de validation.",
-        "Une amélioration visuelle de l’univers 3D est en cours. Les liens ci-dessus donnent accès à la version actuellement publiée."
+        "La nouvelle présentation 3D est publiée dans les trois langues et a été contrôlée sur mobile et ordinateur. Quelques cadrages de vignettes sur mobile et la localisation de captures restent à affiner."
       ],
       "links": [
         {
@@ -174,7 +174,7 @@
       ],
       "media": [],
       "cover": null,
-      "checkedAt": "2026-09-24T07:18:00+03:00"
+      "checkedAt": "2026-09-24T08:38:44+03:00"
     },
     {
       "id": "ghezi",
@@ -276,17 +276,18 @@
       "title": "Keren Rabbi Israël",
       "category": "Sites & expériences",
       "status": "review",
-      "summary": "Parcourir le prototype du catalogue et consulter les ouvrages présentés.",
+      "summary": "Un catalogue de revue de 247 références : recherche en hébreu, vue française et choix des éditions avec leurs prix.",
       "url": "https://keren-rabbi-israel-catalogue.vercel.app/",
       "accent": "#537664",
       "mark": "KR",
       "deliverables": [
-        "247 références rapprochées du catalogue source",
-        "185 fiches consultables",
-        "Prototype sur mobile et ordinateur"
+        "247 références rapprochées de 2 470 champs source",
+        "185 fiches, recherche et choix des éditions",
+        "Vue française de 36 ouvrages, mobile et ordinateur"
       ],
       "notes": [
-        "Ce lien ouvre un prototype de consultation. Les achats en ligne ne sont pas activés sur cette version."
+        "Ce lien ouvre un prototype de consultation. Les achats en ligne ne sont pas activés sur cette version.",
+        "Les descriptions, les formats et l’ordre des ouvrages ont été révisés. Certaines couvertures et informations restent à valider avec le fournisseur."
       ],
       "links": [
         {
@@ -307,7 +308,7 @@
       ],
       "media": [],
       "cover": null,
-      "checkedAt": "2026-09-24T07:18:00+03:00"
+      "checkedAt": "2026-09-24T08:38:44+03:00"
     },
     {
       "id": "adaptive-dj",
