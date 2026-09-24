@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T03:04:36+00:00",
+  "updatedAt": "2026-09-24T03:07:51+00:00",
   "projects": [
     {
       "id": "dreamnova-classic",
@@ -26,10 +26,10 @@
       "category": "Keren",
       "title": "Prototype du site Keren",
       "status": "live",
-      "url": "https://keren-rabbi-israel-centralized-imb6bem46.vercel.app/",
-      "handover": "https://keren-rabbi-israel-centralized-imb6bem46.vercel.app/passation.html",
+      "url": "https://keren-rabbi-israel-catalogue.vercel.app/",
+      "handover": "https://keren-rabbi-israel-catalogue.vercel.app/passation.html",
       "summary": "Prototype public du catalogue Yaakov consultable ; boutique Shopify toujours gelee et sans achat.",
-      "proof": "Vercel READY ; HTTP 200 ; navigateur : 247 references, 185 fiches, 125 HE, 36 FR, recherche et details verifies, 0 erreur console."
+      "proof": "Alias Vercel stable ; accueil et passation HTTP 200 ; navigateur : 247 references, 185 fiches, 125 HE, 36 FR ; production existante inchangee."
     },
     {
       "id": "woodeex",
