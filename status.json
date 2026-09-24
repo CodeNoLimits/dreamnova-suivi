@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T03:07:51+00:00",
+  "updatedAt": "2026-09-24T03:12:15+00:00",
   "projects": [
     {
       "id": "dreamnova-classic",
@@ -38,8 +38,8 @@
       "status": "live",
       "url": "https://woodeex-watch-2409.vercel.app/",
       "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/woodeex.html",
-      "summary": "Page de visionnage mobile des cinq pilotes Woodeex en ligne pour revue de David.",
-      "proof": "Cinq lectures démarrées dans le navigateur, cinq MP4 publics vérifiés intégralement par SHA-256 et décodage sans erreur."
+      "summary": "Page mobile de revue : 5 pilotes précédents et 4 prises alternatives de 15 s, consultables et téléchargeables séparément.",
+      "proof": "9/9 lectures démarrées dans le navigateur ; 4 nouvelles prises : décodage intégral sans erreur, Whisper large 52/52 + 57/57 + 38/40 + 61/64 mots, copies publiques SHA-256 identiques. Les prises restent des scènes séparées."
     },
     {
       "id": "suno-cours",
