@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T13:28:31.804236+00:00",
+  "updatedAt": "2026-09-24T15:12:40.115693+00:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -582,9 +582,9 @@
     },
     {
       "title": "Prospection et paiements",
-      "state": "Parcours opérationnels",
-      "done": "Les offres, accès de paiement et contrôles de prospection ont été examinés. Les campagnes nécessitant une correction restent suspendues.",
-      "next": "Mesurer séparément les réponses, commandes, paiements et livraisons ; une connexion réussie ne prouve pas un encaissement."
+      "state": "Lot pilote envoyé · suivi en cours",
+      "done": "Lot pilote de quatre messages envoyé et rapproché des journaux et du dossier Envoyés à 18 h 10. Le traitement planifié a évité deux doublons. Les campagnes suspendues le restent.",
+      "next": "Contrôler les réponses et les suites commerciales. Une présence dans Envoyés ne certifie pas la remise au destinataire."
     },
     {
       "title": "Portail et coordination",
