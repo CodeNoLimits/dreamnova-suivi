@@ -4,7 +4,9 @@
 import argparse
 import datetime as dt
 import fcntl
+import html
 import json
+import re
 import subprocess
 import sys
 import time
@@ -15,6 +17,7 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "status.json"
 PUBLIC_DATA = "https://codenolimits.github.io/dreamnova-suivi/status.json"
+PUBLIC_ROOT = PUBLIC_DATA.rsplit('/', 1)[0] + '/'
 
 
 def run(*args):
@@ -32,6 +35,13 @@ def check_public_page(url):
             raise ValueError(f"Link returned HTTP {response.status}: {url}")
         if b"authentication required" in body or b"_vercel_sso" in body:
             raise ValueError(f"Link shows an authentication wall: {url}")
+
+
+def html_revision_matches(url, expected):
+    with urllib.request.urlopen(url + '?v=' + str(time.time_ns()), timeout=10) as response:
+        body = response.read().decode('utf-8')
+    match = re.search(r'<meta name="portal-revision" content="([^"]+)"', body)
+    return bool(match and html.unescape(match.group(1)) == expected)
 
 
 def main():
@@ -61,13 +71,13 @@ def main():
         project.update(status=status, summary=args.summary, proof=args.proof)
         if args.url:
             project["url"] = args.url
-        project["checkedAt"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+        project["checkedAt"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="microseconds")
         if args.handover:
             project["handover"] = args.handover
-        data["updatedAt"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+        data["updatedAt"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="microseconds")
         DATA.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
         run(sys.executable, "build_portal.py")
-        run("git", "add", "status.json", "index.html", "projets")
+        run("git", "add", "status.json", "index.html", "projets", "journal", "404.html")
         run("git", "-c", "user.name=DreamNova", "-c", "user.email=codenolimits@gmail.com", "commit", "-m", f"docs: update {args.id} project status")
         run("git", "push", "origin", "main")
         expected = data["updatedAt"]
@@ -75,7 +85,8 @@ def main():
             try:
                 with urllib.request.urlopen(PUBLIC_DATA + "?v=" + str(time.time()), timeout=10) as response:
                     published = json.load(response)
-                if published.get("updatedAt") == expected:
+                pages = (PUBLIC_ROOT, PUBLIC_ROOT + f'projets/{args.id}/', PUBLIC_ROOT + 'journal/')
+                if published.get("updatedAt") == expected and all(html_revision_matches(page, expected) for page in pages):
                     print(f"PUBLISHED {args.id} {args.status} {args.url or '(no link yet)'}")
                     return
             except Exception:

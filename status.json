@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T12:53:17+00:00",
+  "updatedAt": "2026-09-24T13:01:19.788279+00:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -81,7 +81,7 @@
         "Lecture et téléchargement des deux MP4"
       ],
       "notes": [
-        "Pilote envoyé · validation commerciale ouverte. Les deux films restent en version de revue ; la validation finale porte sur le rendu, le produit représenté et les informations commerciales.",
+        "Pilote envoyé · revue visuelle et commerciale ouverte. Un défaut de continuité et d’emballage a été relevé dans Fiançailles V17 entre 32,3 et 35,7 secondes ; une correction est en préparation. Les films ne sont pas présentés comme des publicités finales.",
         "Les versions précédentes restent accessibles dans leur galerie, avec leurs numéros de version."
       ],
       "links": [
@@ -119,8 +119,10 @@
           "poster": "https://codenolimits.github.io/woodeex-revue-2409/expert-poster.jpg"
         }
       ],
-      "cover": null,
-      "checkedAt": "2026-09-24T15:18:21+03:00"
+      "cover": "https://codenolimits.github.io/woodeex-revue-2409/fiancailles-poster.jpg",
+      "checkedAt": "2026-09-24T15:18:21+03:00",
+      "statusLabel": "Pilote envoyé · revue en cours",
+      "coverAlt": "Image du pilote Fiançailles Woodeex, version en revue"
     },
     {
       "id": "dreamnova",
@@ -484,6 +486,110 @@
           "kind": "site"
         }
       ]
+    }
+  ],
+  "journal": [
+    {
+      "title": "The Kosher Option Israel",
+      "state": "Version en revue",
+      "done": "Site multilingue, plateau 3D, bibliothèque et vidéos accessibles. Le concept reste celui de repas scellés sous la certification existante du fournisseur.",
+      "next": "Terminer la conformité aux demandes source, la relecture des livres et du guide vocal avant livraison finale."
+    },
+    {
+      "title": "Woodeex",
+      "state": "Correction visuelle en cours",
+      "done": "Fiançailles V17 et Expert V18 disposent de liens de visionnage et de téléchargement. La revue a repéré un emballage non vérifié et un défaut de continuité dans V17.",
+      "next": "Remplacer le passage concerné, puis revoir bijoux, plans portés, lumière, montage et audio avant de déclarer une version finale."
+    },
+    {
+      "title": "DreamNova Studio",
+      "state": "Mise à jour publiée",
+      "done": "Les univers FR, EN et HE sont disponibles. Le carrousel mobile et son dégagement au-dessus du dock ont été corrigés ; le parcours dentistes hébreu et ses prix en shekels ont été contrôlés.",
+      "next": "Poursuivre les parcours sectoriels et suivre les demandes réelles reçues depuis les offres."
+    },
+    {
+      "title": "Film SABA",
+      "state": "Production et cohérence",
+      "done": "La revue de 42 scènes a documenté les raccords, visages et passages audio à reprendre. Les références canoniques servent aux corrections.",
+      "next": "Livrer des plans corrigés et revus avant intégration au film ; les durées, versions et films distincts restent suivis séparément."
+    },
+    {
+      "title": "Livre d’Avraham Ghezi",
+      "state": "Épreuve éditoriale",
+      "done": "Le lecteur et les PDF de travail sont consultables. Les exigences du livre et le style des illustrations ont été rapprochés des échanges client.",
+      "next": "Corriger les écarts de récit, traduction et illustration avant toute validation pour impression."
+    },
+    {
+      "title": "Keren Rabbi Israël",
+      "state": "Catalogue de revue",
+      "done": "Le prototype présente 247 références, la recherche et le choix des éditions. Le compte de boutique a été retrouvé.",
+      "next": "Rétablir le parcours de vente dans les conditions autorisées ; le catalogue seul ne constitue pas une boutique prête à encaisser."
+    },
+    {
+      "title": "Hok Breslev",
+      "state": "Étude et audio en révision",
+      "done": "L’application et les enregistrements disponibles restent accessibles depuis leur fiche.",
+      "next": "Terminer les PDF attendus et vérifier la fidélité du texte et la prononciation avant de qualifier le lot de complet."
+    },
+    {
+      "title": "Breslev · Recherche",
+      "state": "Version consultable",
+      "done": "La bibliothèque de recherche comprend des passages cités et des contrôles de restitution documentés.",
+      "next": "Continuer la vérification des réponses contre leurs sources ; la disponibilité d’un moteur ne garantit pas chaque réponse."
+    },
+    {
+      "title": "Adaptive DJ",
+      "state": "Démonstration testée",
+      "done": "Les parcours d’interface et de restitution audio ont été testés sur la démonstration.",
+      "next": "Établir les essais matériels et la boucle prédictive réelle ; ces fonctions ne sont pas déclarées démontrées par les tests d’interface."
+    },
+    {
+      "title": "Hafatsa · Suno · Reels",
+      "state": "Brouillons privés",
+      "done": "Des clips candidats et une file de publication durable sont préparés. Aucun post n’est présenté comme publié sur la base de ces brouillons.",
+      "next": "Vérifier les comptes personnels exacts, les droits, les contenus et l’adaptateur d’envoi avant publication."
+    },
+    {
+      "title": "Hub Hafatsa",
+      "state": "Prototype en revue",
+      "done": "Une nouvelle version a été contrôlée sur plusieurs formats mobiles, en français et en hébreu.",
+      "next": "Achever le contrôle des ressources et du parcours de diffusion avant publication du lot validé."
+    },
+    {
+      "title": "Israël Dove · Nitzan Shebagan",
+      "state": "Présences publiques",
+      "done": "Le site et les premières présences publiques sont regroupés sur la fiche dédiée.",
+      "next": "Vérifier le suivi des conversions, les accès et les éléments de campagne encore en préparation."
+    },
+    {
+      "title": "Tikoun Aolam",
+      "state": "Suivi client",
+      "done": "Les accès publics France et Israël sont regroupés. Les demandes client récentes sont suivies dans le dossier privé.",
+      "next": "Vérifier l’application exacte des modifications avant un nouvel envoi, sans répéter les messages déjà transmis."
+    },
+    {
+      "title": "Koskas",
+      "state": "Dossier privé",
+      "done": "Un pilote et un dossier de travail sont conservés pour revue.",
+      "next": "Terminer l’étude du rôle commercial possible à partir des échanges ; aucun contact n’est effectué dans ce lot."
+    },
+    {
+      "title": "Inventions et brevets",
+      "state": "Diligence privée",
+      "done": "Un inventaire de 24 familles candidates fait l’objet de fiches documentaires, techniques et commerciales avec sources.",
+      "next": "Distinguer concept, prototype et preuve de dépôt, corriger les affirmations non démontrées et préparer les dossiers confidentiels."
+    },
+    {
+      "title": "Prospection et paiements",
+      "state": "Parcours opérationnels",
+      "done": "Les offres, accès de paiement et contrôles de prospection ont été examinés. Les campagnes nécessitant une correction restent suspendues.",
+      "next": "Mesurer séparément les réponses, commandes, paiements et livraisons ; une connexion réussie ne prouve pas un encaissement."
+    },
+    {
+      "title": "Portail et coordination",
+      "state": "Liens centralisés",
+      "done": "Les adresses du mail de centralisation et 80 liens ont répondu aux contrôles. La date affichée est désormais reconstruite depuis le manifeste de publication.",
+      "next": "Contrôler une nouvelle publication toutes les 30 secondes sur les pages ouvertes, conserver la lecture vidéo en cours et intégrer chaque résultat validé."
     }
   ]
 }

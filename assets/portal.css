@@ -6,3 +6,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
 .film.portrait video{aspect-ratio:9/16;max-height:720px;object-fit:contain}.film.portrait{max-width:440px;width:100%;margin-inline:auto}
+
+.publication{width:min(1440px,100% - 112px);margin:18px auto 0;display:flex;gap:12px 24px;justify-content:space-between;align-items:center;font-size:11px;color:var(--muted)}.freshness-controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.publication button{border:1px solid var(--ink);background:var(--green);padding:9px 12px;border-radius:4px;min-height:44px;color:var(--ink)}.journal-entry{display:grid;grid-template-columns:1fr 1.4fr;gap:36px;padding:30px 0;border-top:1px solid var(--line)}.journal-entry h2{font-size:29px;font-weight:500;letter-spacing:-.035em;margin-top:8px}.journal-entry p{font-size:14px;color:var(--muted);margin-bottom:12px}.journal-entries{margin-bottom:50px}
+@media(max-width:1080px){.publication{width:calc(100% - 64px)}}
+@media(max-width:680px){.publication{width:calc(100% - 36px);align-items:start;flex-direction:column;gap:6px;font-size:10px}.journal-entry{grid-template-columns:1fr;gap:16px}.journal-entry h2{font-size:27px}}
