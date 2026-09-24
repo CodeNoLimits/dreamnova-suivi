@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T04:37:00+00:00",
+  "updatedAt": "2026-09-24T04:37:17+00:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -71,34 +71,56 @@
       "title": "Woodeex",
       "category": "Films & créations",
       "status": "review",
-      "summary": "Les films et prises alternatives réunis dans une salle de visionnage, avec un lien de téléchargement pour chaque vidéo.",
-      "url": "https://woodeex-watch-2409.vercel.app/",
+      "summary": "Deux nouveaux films à regarder : Fiançailles V10 et Expert V16, avec leurs fichiers MP4 et l’accès aux versions précédentes.",
+      "url": "https://codenolimits.github.io/woodeex-revue-2409/",
       "accent": "#578770",
       "mark": "W",
       "deliverables": [
-        "Galerie de dix vidéos",
-        "Histoires, expertise et prises alternatives",
-        "Lecture et téléchargement des MP4"
+        "Fiançailles V10 · 52,3 secondes",
+        "Expert V16 · 2 minutes 23",
+        "Lecture et téléchargement des deux MP4"
       ],
       "notes": [
-        "Les pilotes restent en revue. Les nouvelles versions travaillent la continuité des voix, la lisibilité des sous-titres et la variété des plans.",
-        "La galerie est le point d’accès aux versions effectivement publiées."
+        "Les deux films sont des versions de revue : voix, sous-titres et plans ont été retravaillés. La validation finale porte encore sur le rendu, le produit représenté et les informations commerciales.",
+        "Les versions précédentes restent accessibles dans leur galerie, avec leurs numéros de version."
       ],
       "links": [
         {
-          "label": "Ouvrir la salle de visionnage",
+          "label": "Ouvrir les deux nouveaux films",
+          "url": "https://codenolimits.github.io/woodeex-revue-2409/",
+          "kind": "site"
+        },
+        {
+          "label": "Galerie des versions précédentes",
           "url": "https://woodeex-watch-2409.vercel.app/",
           "kind": "site"
         },
         {
-          "label": "Voir les prises alternatives",
+          "label": "Prises alternatives",
           "url": "https://woodeex-watch-2409.vercel.app/#prises",
           "kind": "site"
         }
       ],
-      "media": [],
+      "media": [
+        {
+          "title": "Fiançailles · V10",
+          "description": "52,3 s · format vertical · version en revue",
+          "url": "https://codenolimits.github.io/woodeex-revue-2409/videos/fiancailles-v10.mp4",
+          "format": "portrait",
+          "download": true,
+          "poster": "https://codenolimits.github.io/woodeex-revue-2409/fiancailles-poster.jpg"
+        },
+        {
+          "title": "Expert · V16",
+          "description": "2 min 23 · format vertical · version en revue",
+          "url": "https://codenolimits.github.io/woodeex-revue-2409/videos/expert-v16.mp4",
+          "format": "portrait",
+          "download": true,
+          "poster": "https://codenolimits.github.io/woodeex-revue-2409/expert-poster.jpg"
+        }
+      ],
       "cover": null,
-      "checkedAt": "2026-09-24T07:18:00+03:00"
+      "checkedAt": "2026-09-24T04:37:17+00:00"
     },
     {
       "id": "dreamnova",
@@ -116,7 +138,7 @@
       ],
       "notes": [
         "Les pages présentent les réalisations et les offres disponibles. Chaque projet conserve son propre état de validation.",
-        "Une amélioration visuelle de l’univers3D est en cours. Les liens ci-dessus donnent accès à la version actuellement publiée."
+        "Une amélioration visuelle de l’univers 3D est en cours. Les liens ci-dessus donnent accès à la version actuellement publiée."
       ],
       "links": [
         {
@@ -230,9 +252,9 @@
       "accent": "#956097",
       "mark": "BR",
       "deliverables": [
-        "Recherche dans28 418passages",
+        "Recherche dans 28 418 passages",
         "Réponses avec références consultables",
-        "25questions inédites et leurs citations contrôlées"
+        "25 questions inédites et leurs citations contrôlées"
       ],
       "notes": [
         "Les contrôles ciblés confirment les réponses et leurs citations sur les questions testées. Ils ne garantissent pas une réponse à toute formulation ; le moteur peut refuser si les sources sont insuffisantes.",

@@ -47,7 +47,8 @@ def build():
         if p['media']:
             media_items = []
             for media in p['media']:
-                media_items.append(f'''<article class="film"><video controls preload="none" playsinline aria-label="{esc(media['title'])}"><source src="{url(media['url'])}" type="video/mp4"><p><a href="{url(media['url'])}">Ouvrir la vidéo MP4</a></p></video><div class="film-caption"><div><h3>{esc(media['title'])}</h3><p>{esc(media['description'])}</p></div><a class="download-link" href="{url(media['url'])}" target="_blank" rel="noopener noreferrer" download data-download>↓ Télécharger</a></div></article>''')
+                poster = f' poster="{url(media["poster"])}"' if media.get('poster') else ''
+                media_items.append(f'''<article class="film {esc(media.get('format','landscape'))}"><video controls preload="none" playsinline{poster} aria-label="{esc(media['title'])}"><source src="{url(media['url'])}" type="video/mp4"><p><a href="{url(media['url'])}">Ouvrir la vidéo MP4</a></p></video><div class="film-caption"><div><h3>{esc(media['title'])}</h3><p>{esc(media['description'])}</p></div><a class="download-link" href="{url(media['url'])}" target="_blank" rel="noopener noreferrer" download data-download>↓ Télécharger</a></div></article>''')
             media_html = '<section class="media-section" aria-labelledby="films-title"><div class="section-heading"><span class="eyebrow">À regarder</span><h2 id="films-title">Les films</h2><p>Regardez les vidéos ici, puis téléchargez chaque fichier MP4 avec son lien direct.</p></div><div class="film-grid">'+''.join(media_items)+'</div></section>'
         delivered = ''.join('<li><span aria-hidden="true">↗</span>'+esc(s)+'</li>' for s in p['deliverables'])
         notes = ''.join('<p>'+esc(s)+'</p>' for s in p['notes'])
