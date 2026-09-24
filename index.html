@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0e1217">
+  <meta name="description" content="Accès aux prototypes et livraisons DreamNova, avec l’état vérifié de chaque lien.">
+  <title>DreamNova · Projets en cours</title>
+  <style>
+    :root{--bg:#0e1217;--panel:#19212a;--line:#37424d;--gold:#e8c979;--text:#f5f2e9;--muted:#bac3cc;--green:#a4e3bf;--amber:#f1ce83}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 78% 5%,#2c3943 0,transparent 31%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}
+    a{color:inherit}a:focus-visible{outline:3px solid var(--gold);outline-offset:4px}main,header,footer{max-width:1180px;margin:auto;padding-inline:22px}
+    header{padding-block:24px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line)}.brand{font-weight:800;letter-spacing:.2em;font-size:.9rem;text-decoration:none}.toplink{font-size:.88rem;text-decoration:none;color:var(--muted)}
+    .hero{padding-block:65px 42px;max-width:780px}.eyebrow{color:var(--gold);font-weight:700;text-transform:uppercase;letter-spacing:.19em;font-size:.73rem}.hero h1{font-family:Georgia,serif;font-weight:400;letter-spacing:-.045em;line-height:1.04;font-size:clamp(3rem,7vw,5.6rem);margin:14px 0 20px}.hero h1 em{color:var(--gold);font-weight:400}.hero p{font-size:1.12rem;color:var(--muted);max-width:650px}.updated{font-size:.82rem;color:var(--muted);margin-top:24px}.updated strong{color:var(--text)}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-block:15px 20px}.section-head h2{font-size:1rem;text-transform:uppercase;letter-spacing:.15em;margin:0}.section-head span{color:var(--muted);font-size:.8rem}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding-bottom:56px}.card{min-height:257px;background:linear-gradient(145deg,#202b35,var(--panel));border:1px solid var(--line);border-radius:16px;padding:24px;display:flex;flex-direction:column}.card:hover{border-color:#8e987f}.card-top{display:flex;justify-content:space-between;gap:12px;align-items:start}.card h3{font-family:Georgia,serif;font-size:1.6rem;line-height:1.13;font-weight:400;margin:8px 0 12px}.card p{color:var(--muted);font-size:.93rem;margin:0 0 19px}.type{color:var(--gold);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700}.badge{white-space:nowrap;border:1px solid var(--line);border-radius:99px;padding:5px 9px;font-size:.72rem;color:var(--amber)}.badge.live{color:var(--green);border-color:#5a8c70}.card-links{margin-top:auto;display:flex;flex-wrap:wrap;gap:9px}.button{display:inline-flex;justify-content:center;align-items:center;min-height:43px;border-radius:8px;padding:10px 15px;text-decoration:none;font-size:.88rem;font-weight:700;background:var(--gold);color:#161b1e}.button:hover{background:#fff0b8}.button.secondary{background:transparent;border:1px solid #9aa7b2;color:var(--text)}.button.disabled{background:#39444e;color:#cbd0d3;cursor:default}.card small{display:block;margin-top:15px;color:#aeb9c2;font-size:.76rem}
+    .notice{border-top:1px solid var(--line);padding:26px 0 40px;color:var(--muted);font-size:.86rem}.notice strong{color:var(--text)}footer{padding-bottom:35px;color:var(--muted);font-size:.75rem}
+    @media(max-width:700px){header{padding-block:18px}.hero{padding-block:43px 30px}.grid{grid-template-columns:1fr}.card{min-height:222px;padding:20px}.section-head{align-items:start;flex-direction:column}}
+  </style>
+</head>
+<body>
+  <header><a class="brand" href="https://dreamnova.studio/">DREAMNOVA</a><a class="toplink" href="https://dreamnova-3d-fr.vercel.app/">Voir le studio ↗</a></header>
+  <main>
+    <section class="hero"><div class="eyebrow">Liens directs · état vérifié</div><h1>Tout le travail,<br><em>au même endroit.</em></h1><p>Ouvrez les prototypes et les vidéos sans passer par un dépôt de code. Chaque carte indique ce qui est consultable aujourd’hui et ce qui est encore en préparation.</p><div class="updated" id="updated" aria-live="polite">Chargement de l’état…</div></section>
+    <div class="section-head"><h2>Projets</h2><span>Actualisation automatique toutes les 30 secondes</span></div>
+    <section id="cards" class="grid" aria-label="Projets et accès directs"></section>
+    <div class="notice"><strong>Lecture des statuts :</strong> « En ligne » signifie que le lien public a été ouvert et vérifié. « En cours » signifie qu’un agent travaille encore dessus ; aucun résultat n’est annoncé avant contrôle. Les pilotes Woodeex sont présentés à David pour revue, sans envoi au client.</div>
+  </main>
+  <footer>DreamNova · Dernière preuve disponible sur chaque fiche · © 2026</footer>
+  <script>
+    const cards=document.getElementById('cards'),updated=document.getElementById('updated');
+    const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    function safeUrl(u){try{const x=new URL(u);return x.protocol==='https:'?x.href:''}catch{return ''}}
+    async function refresh(){try{
+      const r=await fetch('./status.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('status');const data=await r.json();
+      cards.innerHTML=data.projects.map(p=>{let u=safeUrl(p.url),h=safeUrl(p.handover);return `<article class="card"><div class="card-top"><span class="type">${esc(p.category)}</span><span class="badge ${p.status==='live'?'live':''}">${p.status==='live'?'En ligne':'En cours'}</span></div><h3>${esc(p.title)}</h3><p>${esc(p.summary)}</p><div class="card-links">${u?`<a class="button" href="${esc(u)}" target="_blank" rel="noopener noreferrer">Ouvrir le projet ↗</a>`:'<span class="button disabled">Lien en préparation</span>'}${h?`<a class="button secondary" href="${esc(h)}">Lire la passation</a>`:''}</div><small>${esc(p.proof||'Mise à jour en cours')}</small></article>`}).join('');
+      updated.innerHTML=`Dernière mise à jour : <strong>${esc(new Date(data.updatedAt).toLocaleString('fr-FR',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Jerusalem'}))} (Jérusalem)</strong>`;
+    }catch{updated.textContent='État temporairement indisponible ; les liens déjà affichés restent à vérifier.'}}
+    refresh();setInterval(refresh,30000);
+  </script>
+</body>
+</html>
