@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T09:30:56+03:00",
+  "updatedAt": "2026-09-24T15:18:21+03:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -71,17 +71,17 @@
       "title": "Woodeex",
       "category": "Films & créations",
       "status": "review",
-      "summary": "Deux nouveaux films à regarder : Fiançailles V16 et Expert V18 court, avec leurs fichiers MP4 et l’accès aux versions précédentes.",
+      "summary": "Pilote envoyé · validation commerciale ouverte. Fiançailles V17 et Expert V18 court à découvrir.",
       "url": "https://codenolimits.github.io/woodeex-revue-2409/",
       "accent": "#578770",
       "mark": "W",
       "deliverables": [
-        "Fiançailles V16 · 45,3 secondes",
+        "Fiançailles V17 · 45,3 secondes",
         "Expert V18 court · 45,1 secondes",
         "Lecture et téléchargement des deux MP4"
       ],
       "notes": [
-        "Les deux films sont des versions de revue : voix, sous-titres et plans ont été retravaillés. La validation finale porte encore sur le rendu, le produit représenté et les informations commerciales.",
+        "Pilote envoyé · validation commerciale ouverte. Les deux films restent en version de revue ; la validation finale porte sur le rendu, le produit représenté et les informations commerciales.",
         "Les versions précédentes restent accessibles dans leur galerie, avec leurs numéros de version."
       ],
       "links": [
@@ -103,9 +103,9 @@
       ],
       "media": [
         {
-          "title": "Fiançailles · V16",
-          "description": "45,3 s · format vertical · version en revue",
-          "url": "https://codenolimits.github.io/woodeex-revue-2409/videos/fiancailles-v16-45s.mp4",
+          "title": "Fiançailles · V17",
+          "description": "45,3 s · format vertical · version de revue",
+          "url": "https://codenolimits.github.io/woodeex-revue-2409/videos/fiancailles-v17-45s.mp4",
           "format": "portrait",
           "download": true,
           "poster": "https://codenolimits.github.io/woodeex-revue-2409/fiancailles-poster.jpg"
@@ -120,7 +120,7 @@
         }
       ],
       "cover": null,
-      "checkedAt": "2026-09-24T09:28:18+03:00"
+      "checkedAt": "2026-09-24T15:18:21+03:00"
     },
     {
       "id": "dreamnova",
