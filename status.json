@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T03:00:43+00:00",
+  "updatedAt": "2026-09-24T03:04:36+00:00",
   "projects": [
     {
       "id": "dreamnova-classic",
@@ -57,9 +57,9 @@
       "title": "Reels et Instagram",
       "status": "working",
       "url": "",
-      "handover": "",
-      "summary": "Quatre segments Woodeex retenus par GrokBot ; une page de visionnage publique est demandée. Les nouvelles variantes de bouche et de voix ont été rejetées.",
-      "proof": "État DN-REELS lu à 05:43 ; V1_R02/R03 et V2_R01/R02 retenus, V2 AMI/H3/H4 encore manquants."
+      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/reels.html",
+      "summary": "Quatre segments KEEP distincts des cinq pilotes ont été copiés de GrokBot vers le Mac avec passation et images de contrôle. L’agent Woodeex vérifie image et son avant un éventuel lecteur public.",
+      "proof": "Quatre MP4, quatre JPEG et passation présents localement ; tailles constatées. Aucun reel GrokBot publié ni envoyé au client."
     }
   ]
 }
