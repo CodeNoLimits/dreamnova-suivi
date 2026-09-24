@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T03:26:28+00:00",
+  "updatedAt": "2026-09-24T03:35:27+00:00",
   "projects": [
     {
       "id": "dreamnova-classic",
@@ -35,11 +35,11 @@
       "id": "woodeex",
       "category": "Woodeex",
       "title": "Pilotes vidéo à regarder",
-      "status": "live",
+      "status": "working",
       "url": "https://woodeex-watch-2409.vercel.app/",
       "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/woodeex.html",
-      "summary": "Page de revue : 2 pilotes, 1 variante Grok Imagine Dream aiUltimate, 3 extraits et 4 prises alternatives Runway, tous visionnables et téléchargeables.",
-      "proof": "10 lecteurs publics ; variante Grok 45,7 s contrôlée par transcription 190 mots, inspection visuelle des coupes, décodage complet et lecture navigateur. Ancienne version conservée. Choix voix/jeu encore à David."
+      "summary": "10 vidéos sont accessibles pour revue. La variante fiançailles DreamAI V6 présente des sous-titres incomplets ou trop bas, une continuité de voix à reprendre et trop peu de variété visuelle. Une nouvelle version est en fabrication ; ces vidéos restent des candidats.",
+      "proof": "Défauts relevés sur images aux environs de 16,5 s, 18 s, 21 s, 28 s et 34,5 s ; 0 à 23 s dominés par la même scène. Contrôle image par image et transcription de la nouvelle version encore à faire."
     },
     {
       "id": "suno-cours",
