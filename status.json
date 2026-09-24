@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T13:01:19.788279+00:00",
+  "updatedAt": "2026-09-24T13:11:36.129855+00:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -71,17 +71,17 @@
       "title": "Woodeex",
       "category": "Films & créations",
       "status": "review",
-      "summary": "Pilote envoyé · validation commerciale ouverte. Fiançailles V17 et Expert V18 court à découvrir.",
+      "summary": "Fiançailles V19 corrigé et Expert V18 court : deux candidats à regarder et télécharger, avant validation commerciale.",
       "url": "https://codenolimits.github.io/woodeex-revue-2409/",
       "accent": "#578770",
       "mark": "W",
       "deliverables": [
-        "Fiançailles V17 · 45,3 secondes",
+        "Fiançailles V19 · environ 45 secondes",
         "Expert V18 court · 45,1 secondes",
         "Lecture et téléchargement des deux MP4"
       ],
       "notes": [
-        "Pilote envoyé · revue visuelle et commerciale ouverte. Un défaut de continuité et d’emballage a été relevé dans Fiançailles V17 entre 32,3 et 35,7 secondes ; une correction est en préparation. Les films ne sont pas présentés comme des publicités finales.",
+        "Fiançailles V19 remplace le passage à l’emballage non vérifié. La coupe a été contrôlée image par image et dans le lecteur public à 33,233 secondes. Les deux films restent candidats : la qualité audiovisuelle, les vrais produits et les informations commerciales suivent leur revue, sans approbation finale du client revendiquée.",
         "Les versions précédentes restent accessibles dans leur galerie, avec leurs numéros de version."
       ],
       "links": [
@@ -103,9 +103,9 @@
       ],
       "media": [
         {
-          "title": "Fiançailles · V17",
-          "description": "45,3 s · format vertical · version de revue",
-          "url": "https://codenolimits.github.io/woodeex-revue-2409/videos/fiancailles-v17-45s.mp4",
+          "title": "Fiançailles · V19",
+          "description": "Environ 45 s · format vertical · candidat à validation",
+          "url": "https://codenolimits.github.io/woodeex-revue-2409/videos/fiancailles-v19-45s.mp4",
           "format": "portrait",
           "download": true,
           "poster": "https://codenolimits.github.io/woodeex-revue-2409/fiancailles-poster.jpg"
@@ -120,8 +120,8 @@
         }
       ],
       "cover": "https://codenolimits.github.io/woodeex-revue-2409/fiancailles-poster.jpg",
-      "checkedAt": "2026-09-24T15:18:21+03:00",
-      "statusLabel": "Pilote envoyé · revue en cours",
+      "checkedAt": "2026-09-24T13:11:36.129855+00:00",
+      "statusLabel": "Candidat à validation",
       "coverAlt": "Image du pilote Fiançailles Woodeex, version en revue"
     },
     {
@@ -497,9 +497,9 @@
     },
     {
       "title": "Woodeex",
-      "state": "Correction visuelle en cours",
-      "done": "Fiançailles V17 et Expert V18 disposent de liens de visionnage et de téléchargement. La revue a repéré un emballage non vérifié et un défaut de continuité dans V17.",
-      "next": "Remplacer le passage concerné, puis revoir bijoux, plans portés, lumière, montage et audio avant de déclarer une version finale."
+      "state": "Correctif publié · candidat à validation",
+      "done": "Fiançailles V19 remplace le passage à l’emballage non vérifié. La transition a été revue image par image et dans le lecteur public ; le téléchargement MP4 est disponible avec Expert V18.",
+      "next": "Achever la revue audiovisuelle et commerciale, puis enregistrer le retour client sur la version exacte livrée."
     },
     {
       "title": "DreamNova Studio",
@@ -575,9 +575,9 @@
     },
     {
       "title": "Inventions et brevets",
-      "state": "Diligence privée",
-      "done": "Un inventaire de 24 familles candidates fait l’objet de fiches documentaires, techniques et commerciales avec sources.",
-      "next": "Distinguer concept, prototype et preuve de dépôt, corriger les affirmations non démontrées et préparer les dossiers confidentiels."
+      "state": "Dossier privé préparé",
+      "done": "Vingt-quatre fiches de diligence sont réunies dans un dossier privé de 28 pages. La contre-revue a corrigé plusieurs affirmations techniques et identifié des hypothèses scientifiques non démontrées.",
+      "next": "Vérifier les pièces officielles de dépôt et mener les essais ciblés avant une présentation d’acquisition ; aucun acheteur engagé n’est revendiqué."
     },
     {
       "title": "Prospection et paiements",
