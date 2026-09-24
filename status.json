@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T02:53:51+00:00",
+  "updatedAt": "2026-09-24T02:54:18+00:00",
   "projects": [
     {
       "id": "dreamnova-classic",
@@ -58,8 +58,8 @@
       "status": "working",
       "url": "",
       "handover": "",
-      "summary": "GrokBot poursuit les essais Woodeex ; quatre segments sont signalés KEEP, tandis que les nouvelles variantes de synchronisation labiale restent en brouillon.",
-      "proof": "État lu dans GrokBot à 05:39 ; aucun nouveau lien public validé."
+      "summary": "Quatre segments Woodeex retenus par GrokBot ; une page de visionnage publique est demandée. Les nouvelles variantes de bouche et de voix ont été rejetées.",
+      "proof": "État DN-REELS lu à 05:43 ; V1_R02/R03 et V2_R01/R02 retenus, V2 AMI/H3/H4 encore manquants."
     }
   ]
 }
