@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T03:37:45+00:00",
+  "updatedAt": "2026-09-24T03:46:26+00:00",
   "projects": [
     {
       "id": "dreamnova-classic",
@@ -68,8 +68,8 @@
       "status": "working",
       "url": "https://codenolimits.github.io/the-kosher-option-israel/site/index.html",
       "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/kosher-option.html",
-      "summary": "Concept de table partagée en hébreu et en français, avec plateau 3D et introduction vocale. Le parcours vocal complet et les nouveaux clips sont encore en contrôle.",
-      "proof": "Accueil mobile FR/HE inspecté à 390 × 844 ; audios FR/HE HTTP 200 ; plateau 3D chargé en navigateur. Aucun partenaire ou certificat confirmé."
+      "summary": "Concept trilingue avec plateau 3D, guides vocaux HE/FR transcrits et deux nouveaux films Grok Imagine visibles sur l’accueil et la page du plat. Le projet n’a pas de restaurant, producteur ni certification validés.",
+      "proof": "13 routes contrôlées par l’agent ; accueil mobile HE/FR et plateau 3D mobile/desktop regardés indépendamment ; deux MP4 publics HTTP 200 et lecture muette vérifiée à 390 et 1440 px ; commandes vocales HE/FR activables."
     },
     {
       "id": "adaptive-dj",
