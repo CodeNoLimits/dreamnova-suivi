@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T15:18:21+03:00",
+  "updatedAt": "2026-09-24T15:39:06+03:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -139,7 +139,7 @@
       "notes": [
         "Les pages présentent les réalisations et les offres disponibles. Chaque projet conserve son propre état de validation.",
         "La nouvelle présentation 3D est publiée dans les trois langues et a été contrôlée sur mobile et ordinateur. Quelques cadrages de vignettes sur mobile et la localisation de captures restent à affiner.",
-        "Certains parcours sectoriels en hébreu basculent encore vers le français et des prix en euros. Leur correction est en cours."
+        "Parcours sectoriel hébreu corrigé : clic public vers une fiche hébraïque avec prix en shekels, sans euro affiché. Contrôle indépendant effectué sur la fiche dentistes à 390 px."
       ],
       "links": [
         {
@@ -175,7 +175,7 @@
       ],
       "media": [],
       "cover": null,
-      "checkedAt": "2026-09-24T08:38:44+03:00"
+      "checkedAt": "2026-09-24T15:39:06+03:00"
     },
     {
       "id": "ghezi",
