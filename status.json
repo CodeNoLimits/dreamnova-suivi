@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T04:24:38+00:00",
+  "updatedAt": "2026-09-24T04:37:00+00:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -115,7 +115,8 @@
         "Accès directs entre les expériences"
       ],
       "notes": [
-        "Les pages présentent les réalisations et les offres disponibles. Chaque projet conserve son propre état de validation."
+        "Les pages présentent les réalisations et les offres disponibles. Chaque projet conserve son propre état de validation.",
+        "Une amélioration visuelle de l’univers3D est en cours. Les liens ci-dessus donnent accès à la version actuellement publiée."
       ],
       "links": [
         {
@@ -223,18 +224,19 @@
       "id": "breslev-rag",
       "title": "Breslev · Recherche & étude",
       "category": "Livres & étude",
-      "status": "review",
+      "status": "available",
       "summary": "Poser une question et retrouver les passages cités dans la bibliothèque de recherche.",
       "url": "https://study.dreamnovamcp.com/",
       "accent": "#956097",
       "mark": "BR",
       "deliverables": [
-        "Questions et recherche dans les textes",
-        "Réponses accompagnées de références",
-        "Interface d’étude en ligne"
+        "Recherche dans28 418passages",
+        "Réponses avec références consultables",
+        "25questions inédites et leurs citations contrôlées"
       ],
       "notes": [
-        "Le moteur est en cours d’amélioration pour les formulations naturelles en français, anglais et hébreu. Les références permettent de revenir aux textes."
+        "Les contrôles ciblés confirment les réponses et leurs citations sur les questions testées. Ils ne garantissent pas une réponse à toute formulation ; le moteur peut refuser si les sources sont insuffisantes.",
+        "Les résultats renvoient aux textes afin de permettre leur consultation."
       ],
       "links": [
         {
@@ -245,7 +247,7 @@
       ],
       "media": [],
       "cover": null,
-      "checkedAt": "2026-09-24T07:18:00+03:00"
+      "checkedAt": "2026-09-24T07:35:00+03:00"
     },
     {
       "id": "keren",
