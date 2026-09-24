@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T09:28:18+03:00",
+  "updatedAt": "2026-09-24T09:30:56+03:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -138,7 +138,8 @@
       ],
       "notes": [
         "Les pages présentent les réalisations et les offres disponibles. Chaque projet conserve son propre état de validation.",
-        "La nouvelle présentation 3D est publiée dans les trois langues et a été contrôlée sur mobile et ordinateur. Quelques cadrages de vignettes sur mobile et la localisation de captures restent à affiner."
+        "La nouvelle présentation 3D est publiée dans les trois langues et a été contrôlée sur mobile et ordinateur. Quelques cadrages de vignettes sur mobile et la localisation de captures restent à affiner.",
+        "Certains parcours sectoriels en hébreu basculent encore vers le français et des prix en euros. Leur correction est en cours."
       ],
       "links": [
         {
