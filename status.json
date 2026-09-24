@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T02:54:18+00:00",
+  "updatedAt": "2026-09-24T02:56:33+00:00",
   "projects": [
     {
       "id": "dreamnova-classic",
@@ -37,7 +37,7 @@
       "title": "Pilotes vidéo à regarder",
       "status": "live",
       "url": "https://woodeex-watch-2409.vercel.app/",
-      "handover": "",
+      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/woodeex.html",
       "summary": "Page de visionnage mobile des cinq pilotes Woodeex en ligne pour revue de David.",
       "proof": "Cinq lectures démarrées dans le navigateur, cinq MP4 publics vérifiés intégralement par SHA-256 et décodage sans erreur."
     },
