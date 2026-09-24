@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T03:12:15+00:00",
+  "updatedAt": "2026-09-24T03:15:04+00:00",
   "projects": [
     {
       "id": "dreamnova-classic",
@@ -56,10 +56,10 @@
       "category": "Média",
       "title": "Reels et Instagram",
       "status": "working",
-      "url": "",
+      "url": "https://woodeex-watch-2409.vercel.app/#prises",
       "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/reels.html",
-      "summary": "Quatre segments KEEP distincts des cinq pilotes ont été copiés de GrokBot vers le Mac avec passation et images de contrôle. L’agent Woodeex vérifie image et son avant un éventuel lecteur public.",
-      "proof": "Quatre MP4, quatre JPEG et passation présents localement ; tailles constatées. Aucun reel GrokBot publié ni envoyé au client."
+      "summary": "Quatre prises alternatives de 15 s sont désormais visionnables et téléchargeables sous les cinq pilotes Woodeex. Ce sont des scènes isolées, pas des reels complets publiés sur Instagram.",
+      "proof": "4/4 nouveaux lecteurs démarrés ; MP4 publics SHA-256 identiques ; décodage 4/4 ; 28 images regardées ; Whisper 52/52, 57/57, 38/40, 61/64 mots."
     }
   ]
 }
