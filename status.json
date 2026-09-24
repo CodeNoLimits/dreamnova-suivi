@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T15:12:40.115693+00:00",
+  "updatedAt": "2026-09-24T15:13:57.492491+00:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -493,7 +493,7 @@
     {
       "title": "The Kosher Option Israel",
       "state": "Version en revue",
-      "done": "Site multilingue, plateau 3D, bibliothèque et vidéos accessibles. Le concept reste celui de repas scellés sous la certification existante du fournisseur.",
+      "done": "Site multilingue, plateau 3D, bibliothèque et vidéos accessibles. Une épreuve française de 34 pages a été intégrée au dossier privé. Le concept reste celui de repas scellés sous la certification existante du fournisseur.",
       "next": "Terminer la conformité aux demandes source, la relecture des livres et du guide vocal avant livraison finale."
     },
     {
@@ -571,13 +571,13 @@
     {
       "title": "Koskas",
       "state": "Dossier privé",
-      "done": "Un pilote et un dossier de travail sont conservés pour revue.",
-      "next": "Terminer l’étude du rôle commercial possible à partir des échanges ; aucun contact n’est effectué dans ce lot."
+      "done": "Le pilote et l’étude du rôle commercial possible sont conservés dans le dossier privé, à partir des échanges retrouvés. Aucun contact n’a été effectué dans ce lot.",
+      "next": "Qualifier les possibilités commerciales sans confondre une piste avec un mandat, une offre ou un engagement d’achat."
     },
     {
       "title": "Inventions et brevets",
       "state": "Dossier privé préparé",
-      "done": "Vingt-quatre fiches de diligence sont réunies dans un dossier privé de 28 pages. La contre-revue a corrigé plusieurs affirmations techniques et identifié des hypothèses scientifiques non démontrées.",
+      "done": "Vingt-quatre fiches de diligence et une annexe commerciale sont réunies dans un dossier privé de 30 pages. La contre-revue a corrigé plusieurs affirmations techniques et identifié des hypothèses scientifiques non démontrées.",
       "next": "Vérifier les pièces officielles de dépôt et mener les essais ciblés avant une présentation d’acquisition ; aucun acheteur engagé n’est revendiqué."
     },
     {
