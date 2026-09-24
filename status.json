@@ -1,11 +1,65 @@
 {
-  "updatedAt": "2026-09-24T02:45:00Z",
+  "updatedAt": "2026-09-24T02:53:51+00:00",
   "projects": [
-    {"id":"dreamnova-classic","category":"DreamNova","title":"Le studio · version classique","status":"live","url":"https://dreamnova-3d-fr.vercel.app/","handover":"https://codenolimits.github.io/dreamnova-suivi/handover/dreamnova.html","summary":"Présentation claire des réalisations, des offres et des moyens de contact. Sélecteur vers l’univers 3D sur la page.","proof":"FR/EN/HE : pages publiques 200 ; parcours classique → 3D testé dans le navigateur."},
-    {"id":"dreamnova-world","category":"DreamNova","title":"L’univers immersif 3D","status":"live","url":"https://dreamnova-3d-fr.vercel.app/world","handover":"https://codenolimits.github.io/dreamnova-suivi/handover/dreamnova.html","summary":"L’expérience 3D d’origine est de nouveau accessible en français, anglais et hébreu. Le sélecteur permet de revenir au site classique.","proof":"FR/EN/HE : /world 200 ; navigation 3D → classique → 3D testée dans le navigateur."},
-    {"id":"keren","category":"Keren","title":"Prototype du site Keren","status":"working","url":"","handover":"","summary":"Une prévisualisation publique corrigée est en préparation. L’accès Shopify de la boutique reste séparé.","proof":"Lien communiqué après recette visuelle et fonctionnelle."},
-    {"id":"woodeex","category":"Woodeex","title":"Pilotes vidéo à regarder","status":"working","url":"","handover":"","summary":"Les cinq pilotes sont en cours de mise en page avec des lecteurs vidéo et un accès mobile direct.","proof":"Lien communiqué après lecture réelle des vidéos sur la page."},
-    {"id":"suno-cours","category":"Média","title":"Suno, cours et extraits sociaux","status":"working","url":"","handover":"","summary":"Le prototype est en correction : raccord des pistes, vrai cours, découpe, revue son et image. Aucune publication sacrée annoncée.","proof":"Candidats et liens ajoutés seulement après validation."},
-    {"id":"reels","category":"Média","title":"Reels et Instagram","status":"working","url":"","handover":"","summary":"GrokBot poursuit les essais Woodeex ; quatre segments sont signalés KEEP, tandis que les nouvelles variantes de synchronisation labiale restent en brouillon.","proof":"État lu dans GrokBot à 05:39 ; aucun nouveau lien public validé."}
+    {
+      "id": "dreamnova-classic",
+      "category": "DreamNova",
+      "title": "Le studio · version classique",
+      "status": "live",
+      "url": "https://dreamnova-3d-fr.vercel.app/",
+      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/dreamnova.html",
+      "summary": "Présentation claire des réalisations, des offres et des moyens de contact. Sélecteur vers l’univers 3D sur la page.",
+      "proof": "FR/EN/HE : pages publiques 200 ; parcours classique → 3D testé dans le navigateur."
+    },
+    {
+      "id": "dreamnova-world",
+      "category": "DreamNova",
+      "title": "L’univers immersif 3D",
+      "status": "live",
+      "url": "https://dreamnova-3d-fr.vercel.app/world",
+      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/dreamnova.html",
+      "summary": "L’expérience 3D d’origine est de nouveau accessible en français, anglais et hébreu. Le sélecteur permet de revenir au site classique.",
+      "proof": "FR/EN/HE : /world 200 ; navigation 3D → classique → 3D testée dans le navigateur."
+    },
+    {
+      "id": "keren",
+      "category": "Keren",
+      "title": "Prototype du site Keren",
+      "status": "working",
+      "url": "",
+      "handover": "",
+      "summary": "Une prévisualisation publique corrigée est en préparation. L’accès Shopify de la boutique reste séparé.",
+      "proof": "Lien communiqué après recette visuelle et fonctionnelle."
+    },
+    {
+      "id": "woodeex",
+      "category": "Woodeex",
+      "title": "Pilotes vidéo à regarder",
+      "status": "live",
+      "url": "https://woodeex-watch-2409.vercel.app/",
+      "handover": "",
+      "summary": "Page de visionnage mobile des cinq pilotes Woodeex en ligne pour revue de David.",
+      "proof": "Cinq lectures démarrées dans le navigateur, cinq MP4 publics vérifiés intégralement par SHA-256 et décodage sans erreur."
+    },
+    {
+      "id": "suno-cours",
+      "category": "Média",
+      "title": "Suno, cours et extraits sociaux",
+      "status": "working",
+      "url": "",
+      "handover": "",
+      "summary": "Le prototype est en correction : raccord des pistes, vrai cours, découpe, revue son et image. Aucune publication sacrée annoncée.",
+      "proof": "Candidats et liens ajoutés seulement après validation."
+    },
+    {
+      "id": "reels",
+      "category": "Média",
+      "title": "Reels et Instagram",
+      "status": "working",
+      "url": "",
+      "handover": "",
+      "summary": "GrokBot poursuit les essais Woodeex ; quatre segments sont signalés KEEP, tandis que les nouvelles variantes de synchronisation labiale restent en brouillon.",
+      "proof": "État lu dans GrokBot à 05:39 ; aucun nouveau lien public validé."
+    }
   ]
 }
