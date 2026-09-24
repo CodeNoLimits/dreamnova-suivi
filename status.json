@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T09:05:22+03:00",
+  "updatedAt": "2026-09-24T09:15:11+03:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -8,13 +8,13 @@
       "category": "Sites & expériences",
       "status": "review",
       "summary": "Une table partagée, un repas individuel scellé : découvrir le concept, explorer le plateau en 3D et parcourir les deux livres.",
-      "url": "https://codenolimits.github.io/the-kosher-option-israel/site/index.html",
+      "url": "https://codenolimits.github.io/the-kosher-option-israel-site/site/index.html",
       "accent": "#bf5c3b",
       "mark": "KO",
       "deliverables": [
         "Site en hébreu, français et anglais",
         "Plateau interactif en 3D",
-        "Deux livres et deux boucles vidéo"
+        "Deux livres de travail · 32 et 14 pages · deux boucles vidéo"
       ],
       "notes": [
         "Le site présente un concept en cours de développement. Les restaurants cités sont des pistes, sans partenariat ni certification annoncés.",
@@ -23,48 +23,48 @@
       "links": [
         {
           "label": "Découvrir le site",
-          "url": "https://codenolimits.github.io/the-kosher-option-israel/site/index.html",
+          "url": "https://codenolimits.github.io/the-kosher-option-israel-site/site/index.html",
           "kind": "site"
         },
         {
           "label": "Explorer le plateau 3D",
-          "url": "https://codenolimits.github.io/the-kosher-option-israel/site/table-3d.html",
+          "url": "https://codenolimits.github.io/the-kosher-option-israel-site/site/table-3d.html",
           "kind": "site"
         },
         {
           "label": "Ouvrir la bibliothèque",
-          "url": "https://codenolimits.github.io/the-kosher-option-israel/books/site/index.html",
+          "url": "https://codenolimits.github.io/the-kosher-option-israel-site/books/site/index.html",
           "kind": "site"
         },
         {
           "label": "Why the Table · PDF anglais",
-          "url": "https://codenolimits.github.io/the-kosher-option-israel/books/why-the-table/v2/book.pdf",
+          "url": "https://codenolimits.github.io/the-kosher-option-israel-site/books/why-the-table/v2/book.pdf",
           "kind": "pdf"
         },
         {
           "label": "DreamNova and Leeya · PDF anglais",
-          "url": "https://codenolimits.github.io/the-kosher-option-israel/books/dreamnova-and-leeya/book.pdf",
+          "url": "https://codenolimits.github.io/the-kosher-option-israel-site/books/dreamnova-and-leeya/book.pdf",
           "kind": "pdf"
         }
       ],
       "media": [
         {
           "title": "Autour de la même table",
-          "url": "https://codenolimits.github.io/the-kosher-option-israel/site/video/shared-table-grok-loop.mp4",
+          "url": "https://codenolimits.github.io/the-kosher-option-israel-site/site/video/shared-table-grok-loop.mp4",
           "type": "video",
           "description": "Boucle visuelle · sans narration",
           "download": true
         },
         {
           "title": "Le repas scellé",
-          "url": "https://codenolimits.github.io/the-kosher-option-israel/site/video/sealed-meal-grok-loop.mp4",
+          "url": "https://codenolimits.github.io/the-kosher-option-israel-site/site/video/sealed-meal-grok-loop.mp4",
           "type": "video",
           "description": "Boucle visuelle · sans narration",
           "download": true
         }
       ],
-      "cover": "https://codenolimits.github.io/the-kosher-option-israel/site/images/shared-table-concept.webp",
-      "checkedAt": "2026-09-24T07:18:00+03:00"
+      "cover": "https://codenolimits.github.io/the-kosher-option-israel-site/site/images/shared-table-concept.webp",
+      "checkedAt": "2026-09-24T09:15:11+03:00"
     },
     {
       "id": "woodeex",
