@@ -36,7 +36,7 @@ def check_public_page(url):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--id", required=True, choices=("dreamnova-classic", "dreamnova-world", "keren", "woodeex", "suno-cours", "reels"))
+    parser.add_argument("--id", required=True, choices=("dreamnova-classic", "dreamnova-world", "keren", "woodeex", "suno-cours", "reels", "kosher-option", "adaptive-dj"))
     parser.add_argument("--status", required=True, choices=("live", "working"))
     parser.add_argument("--url", default="")
     parser.add_argument("--summary", required=True)

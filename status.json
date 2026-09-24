@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T03:35:27+00:00",
+  "updatedAt": "2026-09-24T03:37:45+00:00",
   "projects": [
     {
       "id": "dreamnova-classic",
@@ -60,6 +60,26 @@
       "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/reels.html",
       "summary": "Quatre prises alternatives de 15 s sont désormais visionnables et téléchargeables sous les cinq pilotes Woodeex. Ce sont des scènes isolées, pas des reels complets publiés sur Instagram.",
       "proof": "4/4 nouveaux lecteurs démarrés ; MP4 publics SHA-256 identiques ; décodage 4/4 ; 28 images regardées ; Whisper 52/52, 57/57, 38/40, 61/64 mots."
+    },
+    {
+      "id": "kosher-option",
+      "category": "Concept culinaire",
+      "title": "The Kosher Option Israel",
+      "status": "working",
+      "url": "https://codenolimits.github.io/the-kosher-option-israel/site/index.html",
+      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/kosher-option.html",
+      "summary": "Concept de table partagée en hébreu et en français, avec plateau 3D et introduction vocale. Le parcours vocal complet et les nouveaux clips sont encore en contrôle.",
+      "proof": "Accueil mobile FR/HE inspecté à 390 × 844 ; audios FR/HE HTTP 200 ; plateau 3D chargé en navigateur. Aucun partenaire ou certificat confirmé."
+    },
+    {
+      "id": "adaptive-dj",
+      "category": "Prototype",
+      "title": "Adaptive DJ",
+      "status": "working",
+      "url": "https://adaptive-dj-work.vercel.app/",
+      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/adaptive-dj.html",
+      "summary": "Prototype public accessible. Les usages caméra et musique en conditions réelles restent à vérifier.",
+      "proof": "Lien public vérifié ; 42 contrôles de pages rapportés par le responsable du projet. Pas de preuve ici du fonctionnement caméra ni du dépôt de brevet."
     }
   ]
 }
