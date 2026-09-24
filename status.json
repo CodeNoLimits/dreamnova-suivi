@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T08:38:44+03:00",
+  "updatedAt": "2026-09-24T09:05:22+03:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -71,13 +71,13 @@
       "title": "Woodeex",
       "category": "Films & créations",
       "status": "review",
-      "summary": "Deux nouveaux films à regarder : Fiançailles V10 et Expert V16, avec leurs fichiers MP4 et l’accès aux versions précédentes.",
+      "summary": "Deux nouveaux films à regarder : Fiançailles V13 et Expert V18 court, avec leurs fichiers MP4 et l’accès aux versions précédentes.",
       "url": "https://codenolimits.github.io/woodeex-revue-2409/",
       "accent": "#578770",
       "mark": "W",
       "deliverables": [
-        "Fiançailles V10 · 52,3 secondes",
-        "Expert V16 · 2 minutes 23",
+        "Fiançailles V13 · 52,3 secondes",
+        "Expert V18 court · 45,1 secondes",
         "Lecture et téléchargement des deux MP4"
       ],
       "notes": [
@@ -103,24 +103,24 @@
       ],
       "media": [
         {
-          "title": "Fiançailles · V10",
+          "title": "Fiançailles · V13",
           "description": "52,3 s · format vertical · version en revue",
-          "url": "https://codenolimits.github.io/woodeex-revue-2409/videos/fiancailles-v10.mp4",
+          "url": "https://codenolimits.github.io/woodeex-revue-2409/videos/fiancailles-v13.mp4",
           "format": "portrait",
           "download": true,
           "poster": "https://codenolimits.github.io/woodeex-revue-2409/fiancailles-poster.jpg"
         },
         {
-          "title": "Expert · V16",
-          "description": "2 min 23 · format vertical · version en revue",
-          "url": "https://codenolimits.github.io/woodeex-revue-2409/videos/expert-v16.mp4",
+          "title": "Expert · V18 court",
+          "description": "45,1 s · format vertical · version en revue",
+          "url": "https://codenolimits.github.io/woodeex-revue-2409/videos/expert-v18-45s.mp4",
           "format": "portrait",
           "download": true,
           "poster": "https://codenolimits.github.io/woodeex-revue-2409/expert-poster.jpg"
         }
       ],
       "cover": null,
-      "checkedAt": "2026-09-24T04:37:17+00:00"
+      "checkedAt": "2026-09-24T09:05:22+03:00"
     },
     {
       "id": "dreamnova",
