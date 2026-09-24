@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T02:57:00+00:00",
+  "updatedAt": "2026-09-24T03:00:43+00:00",
   "projects": [
     {
       "id": "dreamnova-classic",
@@ -47,9 +47,9 @@
       "title": "Suno, cours et extraits sociaux",
       "status": "working",
       "url": "",
-      "handover": "",
-      "summary": "Le prototype est en correction : raccord des pistes, vrai cours, découpe, revue son et image. Aucune publication sacrée annoncée.",
-      "proof": "Candidats et liens ajoutés seulement après validation."
+      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/suno-cours.html",
+      "summary": "Deux extraits verticaux ont été réalisés et contrôlés : cours 26,333 s et Suno 24 s. Ils attendent la validation de David sur la coupe, la prononciation et les droits avant diffusion.",
+      "proof": "MP4 locaux 1080×1920 décodés ; images et raccord audio contrôlés. Aucun post Instagram, TikTok ou YouTube publié."
     },
     {
       "id": "reels",
