@@ -1,15 +1,30 @@
-# DreamNova · page des projets
+# DreamNova · Portail des livraisons
 
-Page publique : https://codenolimits.github.io/dreamnova-suivi/
+Catalogue public : https://codenolimits.github.io/dreamnova-suivi/
 
-Le navigateur recharge `status.json` toutes les 30 secondes. Après chaque changement vérifié, l'agent responsable publie son état avec `publish_status.py`. Le script contrôle que les URL publiques répondent sans mur de connexion, pousse la modification sur GitHub Pages puis attend que la nouvelle version soit servie. Le délai normal de publication est d'environ une minute ; il ne faut pas annoncer le lien avant le message `PUBLISHED`.
+Chaque projet a une page indépendante sous `projets/<id>/`, sans navigation vers les autres dossiers clients. Le site reste public : une URL difficile à deviner ne protège pas un document. Les pièces confidentielles, comptes, rapports internes et contenus sacrés non approuvés restent hors de ce dépôt.
+
+## Publication
+
+`status.json` est le manifeste public. `build_portal.py` génère l’accueil et les pages statiques. `assets/portal.css` et `assets/portal.js` gèrent présentation, recherche et filtres. Aucune dépendance de compilation.
 
 ```sh
-python3 publish_status.py --id keren --status live \
-  --url https://exemple.vercel.app/ \
-  --summary 'Description courte du résultat consultable' \
-  --proof 'Rendu mobile et ordinateur vérifié ; parcours testé' \
-  --handover https://exemple.vercel.app/passation/
+python3 build_portal.py
+node --check assets/portal.js
 ```
 
-Identifiants : `dreamnova-classic`, `dreamnova-world`, `keren`, `woodeex`, `suno-cours`, `reels`. Les mises à jour sans lien restent en état `working`. Le dépôt est public : exclure secrets, coordonnées privées, contenu client confidentiel et diagnostics internes.
+La supervision Astra est propriétaire du portail pendant le mandat du 24 septembre jusqu’à 10:50 Jérusalem. Les responsables des projets lui transmettent liens et preuves, sans pousser simultanément dans ce dépôt.
+
+Ensuite, `publish_status.py` permet une mise à jour bornée : vérification des URL HTTPS, reconstruction des pages, commit, push et vérification du manifeste public. `--proof` doit rester une preuve publique sans information privée.
+
+```sh
+python3 publish_status.py --id keren --status review --url https://keren-rabbi-israel-catalogue.vercel.app/ --summary 'Prototype du catalogue consultable.' --proof 'Catalogue et lecture mobile vérifiés.'
+```
+
+États : `available` = accès disponible ; `review` = version en revue. Le premier état ne certifie pas toutes les fonctions. Les paramètres historiques `live` et `working` restent des alias. Les identifiants valides se trouvent dans le manifeste.
+
+## Médias
+
+Les vidéos déjà publiques sont lues depuis leur hébergeur. Les MP4 GitHub Pages, de même origine que ce portail, ont un lien `download`. Les vidéos Woodeex restent sur leur salle de visionnage où le téléchargement est fourni par le même hébergeur. Ne pas dupliquer les gros masters uniquement pour ce portail.
+
+La publication n’est confirmée qu’après contrôle de GitHub Pages, des pages dédiées et des fichiers téléchargeables. Les anciennes pages `handover/` restent présentes pour conserver les liens historiques.

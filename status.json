@@ -1,85 +1,461 @@
 {
-  "updatedAt": "2026-09-24T03:46:26+00:00",
+  "schemaVersion": 2,
+  "updatedAt": "2026-09-24T04:24:38+00:00",
   "projects": [
     {
-      "id": "dreamnova-classic",
-      "category": "DreamNova",
-      "title": "Le studio · version classique",
-      "status": "live",
-      "url": "https://dreamnova-3d-fr.vercel.app/",
-      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/dreamnova.html",
-      "summary": "Présentation claire des réalisations, des offres et des moyens de contact. Sélecteur vers l’univers 3D sur la page.",
-      "proof": "FR/EN/HE : pages publiques 200 ; parcours classique → 3D testé dans le navigateur."
-    },
-    {
-      "id": "dreamnova-world",
-      "category": "DreamNova",
-      "title": "L’univers immersif 3D",
-      "status": "live",
-      "url": "https://dreamnova-3d-fr.vercel.app/world",
-      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/dreamnova.html",
-      "summary": "L’expérience 3D d’origine est de nouveau accessible en français, anglais et hébreu. Le sélecteur permet de revenir au site classique.",
-      "proof": "FR/EN/HE : /world 200 ; navigation 3D → classique → 3D testée dans le navigateur."
-    },
-    {
-      "id": "keren",
-      "category": "Keren",
-      "title": "Prototype du site Keren",
-      "status": "live",
-      "url": "https://keren-rabbi-israel-catalogue.vercel.app/",
-      "handover": "https://keren-rabbi-israel-catalogue.vercel.app/passation.html",
-      "summary": "Prototype public du catalogue Yaakov consultable ; boutique Shopify toujours gelee et sans achat.",
-      "proof": "Alias Vercel stable ; accueil et passation HTTP 200 ; navigateur : 247 references, 185 fiches, 125 HE, 36 FR ; production existante inchangee."
+      "id": "kosher-option",
+      "title": "The Kosher Option Israel",
+      "category": "Sites & expériences",
+      "status": "review",
+      "summary": "Une table partagée, un repas individuel scellé : découvrir le concept, explorer le plateau en 3D et parcourir les deux livres.",
+      "url": "https://codenolimits.github.io/the-kosher-option-israel/site/index.html",
+      "accent": "#bf5c3b",
+      "mark": "KO",
+      "deliverables": [
+        "Site en hébreu, français et anglais",
+        "Plateau interactif en 3D",
+        "Deux livres et deux boucles vidéo"
+      ],
+      "notes": [
+        "Le site présente un concept en cours de développement. Les restaurants cités sont des pistes, sans partenariat ni certification annoncés.",
+        "Les textes des livres, leurs traductions et les films promotionnels font encore l’objet d’une révision."
+      ],
+      "links": [
+        {
+          "label": "Découvrir le site",
+          "url": "https://codenolimits.github.io/the-kosher-option-israel/site/index.html",
+          "kind": "site"
+        },
+        {
+          "label": "Explorer le plateau 3D",
+          "url": "https://codenolimits.github.io/the-kosher-option-israel/site/table-3d.html",
+          "kind": "site"
+        },
+        {
+          "label": "Ouvrir la bibliothèque",
+          "url": "https://codenolimits.github.io/the-kosher-option-israel/books/site/index.html",
+          "kind": "site"
+        },
+        {
+          "label": "Why the Table · PDF anglais",
+          "url": "https://codenolimits.github.io/the-kosher-option-israel/books/why-the-table/v2/book.pdf",
+          "kind": "pdf"
+        },
+        {
+          "label": "DreamNova and Leeya · PDF anglais",
+          "url": "https://codenolimits.github.io/the-kosher-option-israel/books/dreamnova-and-leeya/book.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "media": [
+        {
+          "title": "Autour de la même table",
+          "url": "https://codenolimits.github.io/the-kosher-option-israel/site/video/shared-table-grok-loop.mp4",
+          "type": "video",
+          "description": "Boucle visuelle · sans narration",
+          "download": true
+        },
+        {
+          "title": "Le repas scellé",
+          "url": "https://codenolimits.github.io/the-kosher-option-israel/site/video/sealed-meal-grok-loop.mp4",
+          "type": "video",
+          "description": "Boucle visuelle · sans narration",
+          "download": true
+        }
+      ],
+      "cover": "https://codenolimits.github.io/the-kosher-option-israel/site/images/shared-table-concept.webp",
+      "checkedAt": "2026-09-24T07:18:00+03:00"
     },
     {
       "id": "woodeex",
-      "category": "Woodeex",
-      "title": "Pilotes vidéo à regarder",
-      "status": "working",
+      "title": "Woodeex",
+      "category": "Films & créations",
+      "status": "review",
+      "summary": "Les films et prises alternatives réunis dans une salle de visionnage, avec un lien de téléchargement pour chaque vidéo.",
       "url": "https://woodeex-watch-2409.vercel.app/",
-      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/woodeex.html",
-      "summary": "10 vidéos sont accessibles pour revue. La variante fiançailles DreamAI V6 présente des sous-titres incomplets ou trop bas, une continuité de voix à reprendre et trop peu de variété visuelle. Une nouvelle version est en fabrication ; ces vidéos restent des candidats.",
-      "proof": "Défauts relevés sur images aux environs de 16,5 s, 18 s, 21 s, 28 s et 34,5 s ; 0 à 23 s dominés par la même scène. Contrôle image par image et transcription de la nouvelle version encore à faire."
+      "accent": "#578770",
+      "mark": "W",
+      "deliverables": [
+        "Galerie de dix vidéos",
+        "Histoires, expertise et prises alternatives",
+        "Lecture et téléchargement des MP4"
+      ],
+      "notes": [
+        "Les pilotes restent en revue. Les nouvelles versions travaillent la continuité des voix, la lisibilité des sous-titres et la variété des plans.",
+        "La galerie est le point d’accès aux versions effectivement publiées."
+      ],
+      "links": [
+        {
+          "label": "Ouvrir la salle de visionnage",
+          "url": "https://woodeex-watch-2409.vercel.app/",
+          "kind": "site"
+        },
+        {
+          "label": "Voir les prises alternatives",
+          "url": "https://woodeex-watch-2409.vercel.app/#prises",
+          "kind": "site"
+        }
+      ],
+      "media": [],
+      "cover": null,
+      "checkedAt": "2026-09-24T07:18:00+03:00"
     },
     {
-      "id": "suno-cours",
-      "category": "Média",
-      "title": "Suno, cours et extraits sociaux",
-      "status": "working",
-      "url": "",
-      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/suno-cours.html",
-      "summary": "Deux extraits verticaux ont été réalisés et contrôlés : cours 26,333 s et Suno 24 s. Ils attendent la validation de David sur la coupe, la prononciation et les droits avant diffusion.",
-      "proof": "MP4 locaux 1080×1920 décodés ; images et raccord audio contrôlés. Aucun post Instagram, TikTok ou YouTube publié."
+      "id": "dreamnova",
+      "title": "DreamNova Studio",
+      "category": "Sites & expériences",
+      "status": "available",
+      "summary": "Les réalisations du studio, une présentation classique et un univers immersif, accessibles en trois langues.",
+      "url": "https://dreamnova.studio/",
+      "accent": "#5b62c9",
+      "mark": "DN",
+      "deliverables": [
+        "Studio et galerie de réalisations",
+        "Univers 3D en français, anglais et hébreu",
+        "Accès directs entre les expériences"
+      ],
+      "notes": [
+        "Les pages présentent les réalisations et les offres disponibles. Chaque projet conserve son propre état de validation."
+      ],
+      "links": [
+        {
+          "label": "Ouvrir le studio",
+          "url": "https://dreamnova.studio/",
+          "kind": "site"
+        },
+        {
+          "label": "Toutes les expériences du studio",
+          "url": "https://dreamnova.studio/#universe",
+          "kind": "site"
+        },
+        {
+          "label": "Présentation française",
+          "url": "https://dreamnova-3d-fr.vercel.app/",
+          "kind": "site"
+        },
+        {
+          "label": "Univers 3D · français",
+          "url": "https://dreamnova-3d-fr.vercel.app/world",
+          "kind": "site"
+        },
+        {
+          "label": "Univers 3D · English",
+          "url": "https://dreamnova-3d-en.vercel.app/world",
+          "kind": "site"
+        },
+        {
+          "label": "Univers 3D · עברית",
+          "url": "https://dreamnova-3d-he.vercel.app/world",
+          "kind": "site"
+        }
+      ],
+      "media": [],
+      "cover": null,
+      "checkedAt": "2026-09-24T07:18:00+03:00"
     },
     {
-      "id": "reels",
-      "category": "Média",
-      "title": "Reels et Instagram",
-      "status": "working",
-      "url": "https://woodeex-watch-2409.vercel.app/#prises",
-      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/reels.html",
-      "summary": "Quatre prises alternatives de 15 s sont désormais visionnables et téléchargeables sous les cinq pilotes Woodeex. Ce sont des scènes isolées, pas des reels complets publiés sur Instagram.",
-      "proof": "4/4 nouveaux lecteurs démarrés ; MP4 publics SHA-256 identiques ; décodage 4/4 ; 28 images regardées ; Whisper 52/52, 57/57, 38/40, 61/64 mots."
+      "id": "ghezi",
+      "title": "Le Shabbat en histoires",
+      "category": "Livres & étude",
+      "status": "review",
+      "summary": "Le livre illustré d’Avraham Ghezi et son cahier des seize étapes, avec un lecteur en ligne et les PDF.",
+      "url": "https://ghezi-shabbat-enfants.vercel.app/v9/lecteur",
+      "accent": "#ba884c",
+      "mark": "AG",
+      "deliverables": [
+        "Lecteur du livre illustré",
+        "Livre et cahier en PDF",
+        "Version V9 consultable"
+      ],
+      "notes": [
+        "Cette version reste une épreuve de lecture. Les illustrations et traductions suivent une révision éditoriale avant validation pour impression."
+      ],
+      "links": [
+        {
+          "label": "Lire le livre",
+          "url": "https://ghezi-shabbat-enfants.vercel.app/v9/lecteur",
+          "kind": "site"
+        },
+        {
+          "label": "Le Shabbat en histoires · PDF",
+          "url": "https://ghezi-shabbat-enfants.vercel.app/v9/livre-shabbat.pdf",
+          "kind": "pdf"
+        },
+        {
+          "label": "Les seize étapes · PDF",
+          "url": "https://ghezi-shabbat-enfants.vercel.app/v9/16-etapes.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "media": [],
+      "cover": null,
+      "checkedAt": "2026-09-24T07:18:00+03:00"
     },
     {
-      "id": "kosher-option",
-      "category": "Concept culinaire",
-      "title": "The Kosher Option Israel",
-      "status": "working",
-      "url": "https://codenolimits.github.io/the-kosher-option-israel/site/index.html",
-      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/kosher-option.html",
-      "summary": "Concept trilingue avec plateau 3D, guides vocaux HE/FR transcrits et deux nouveaux films Grok Imagine visibles sur l’accueil et la page du plat. Le projet n’a pas de restaurant, producteur ni certification validés.",
-      "proof": "13 routes contrôlées par l’agent ; accueil mobile HE/FR et plateau 3D mobile/desktop regardés indépendamment ; deux MP4 publics HTTP 200 et lecture muette vérifiée à 390 et 1440 px ; commandes vocales HE/FR activables."
+      "id": "hok-breslev",
+      "title": "Hok Breslev",
+      "category": "Livres & étude",
+      "status": "review",
+      "summary": "Retrouver l’étude quotidienne, consulter les textes et écouter les enregistrements disponibles.",
+      "url": "https://hok-breslev-shomea.vercel.app/",
+      "accent": "#477989",
+      "mark": "HB",
+      "deliverables": [
+        "Calendrier d’étude",
+        "Consultation des textes",
+        "Écoute des audios disponibles"
+      ],
+      "notes": [
+        "Le calendrier, certaines transcriptions et la couverture audio font l’objet d’une correction. Les audios absents ne sont pas annoncés comme disponibles."
+      ],
+      "links": [
+        {
+          "label": "Ouvrir Hok Breslev",
+          "url": "https://hok-breslev-shomea.vercel.app/",
+          "kind": "site"
+        }
+      ],
+      "media": [],
+      "cover": null,
+      "checkedAt": "2026-09-24T07:18:00+03:00"
+    },
+    {
+      "id": "breslev-rag",
+      "title": "Breslev · Recherche & étude",
+      "category": "Livres & étude",
+      "status": "review",
+      "summary": "Poser une question et retrouver les passages cités dans la bibliothèque de recherche.",
+      "url": "https://study.dreamnovamcp.com/",
+      "accent": "#956097",
+      "mark": "BR",
+      "deliverables": [
+        "Questions et recherche dans les textes",
+        "Réponses accompagnées de références",
+        "Interface d’étude en ligne"
+      ],
+      "notes": [
+        "Le moteur est en cours d’amélioration pour les formulations naturelles en français, anglais et hébreu. Les références permettent de revenir aux textes."
+      ],
+      "links": [
+        {
+          "label": "Ouvrir la bibliothèque",
+          "url": "https://study.dreamnovamcp.com/",
+          "kind": "site"
+        }
+      ],
+      "media": [],
+      "cover": null,
+      "checkedAt": "2026-09-24T07:18:00+03:00"
+    },
+    {
+      "id": "keren",
+      "title": "Keren Rabbi Israël",
+      "category": "Sites & expériences",
+      "status": "review",
+      "summary": "Parcourir le prototype du catalogue et consulter les ouvrages présentés.",
+      "url": "https://keren-rabbi-israel-catalogue.vercel.app/",
+      "accent": "#537664",
+      "mark": "KR",
+      "deliverables": [
+        "247 références rapprochées du catalogue source",
+        "185 fiches consultables",
+        "Prototype sur mobile et ordinateur"
+      ],
+      "notes": [
+        "Ce lien ouvre un prototype de consultation. Les achats en ligne ne sont pas activés sur cette version."
+      ],
+      "links": [
+        {
+          "label": "Parcourir le catalogue",
+          "url": "https://keren-rabbi-israel-catalogue.vercel.app/",
+          "kind": "site"
+        },
+        {
+          "label": "Présentation du catalogue",
+          "url": "https://keren-rabbi-israel-catalogue.vercel.app/passation.html",
+          "kind": "site"
+        },
+        {
+          "label": "Présentation · PDF",
+          "url": "https://keren-rabbi-israel-catalogue.vercel.app/passation-keren.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "media": [],
+      "cover": null,
+      "checkedAt": "2026-09-24T07:18:00+03:00"
     },
     {
       "id": "adaptive-dj",
-      "category": "Prototype",
       "title": "Adaptive DJ",
-      "status": "working",
+      "category": "Applications",
+      "status": "review",
+      "summary": "Explorer une démonstration du studio de musique et de ses fonctions interactives.",
       "url": "https://adaptive-dj-work.vercel.app/",
-      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/adaptive-dj.html",
-      "summary": "Prototype public accessible. Les usages caméra et musique en conditions réelles restent à vérifier.",
-      "proof": "Lien public vérifié ; 42 contrôles de pages rapportés par le responsable du projet. Pas de preuve ici du fonctionnement caméra ni du dépôt de brevet."
+      "accent": "#ad6a4d",
+      "mark": "DJ",
+      "deliverables": [
+        "Démonstration publique du studio",
+        "Interface musicale interactive",
+        "Présentation de l’expérience"
+      ],
+      "notes": [
+        "La démonstration est une version de travail. L’utilisation de la caméra et l’expérience musicale en conditions réelles restent à valider."
+      ],
+      "links": [
+        {
+          "label": "Essayer la démonstration",
+          "url": "https://adaptive-dj-work.vercel.app/",
+          "kind": "site"
+        }
+      ],
+      "media": [],
+      "cover": null,
+      "checkedAt": "2026-09-24T07:18:00+03:00"
+    },
+    {
+      "id": "nitzan-shebagan",
+      "title": "Nitzan Shebagan",
+      "category": "Sites & expériences",
+      "status": "available",
+      "summary": "Le site de présentation et les premières présences publiques de Nitzan Shebagan.",
+      "url": "https://nitzan-shebagan-site.vercel.app/",
+      "accent": "#9c647b",
+      "mark": "NS",
+      "deliverables": [
+        "Site de présentation",
+        "Compte Instagram professionnel",
+        "Premier post Instagram public"
+      ],
+      "notes": [
+        "Les liens ci-dessous concernent le site et les publications organiques disponibles."
+      ],
+      "links": [
+        {
+          "label": "Ouvrir le site",
+          "url": "https://nitzan-shebagan-site.vercel.app/",
+          "kind": "site"
+        },
+        {
+          "label": "Voir Instagram",
+          "url": "https://www.instagram.com/nitzan_shebagan/",
+          "kind": "site"
+        },
+        {
+          "label": "Voir le premier post",
+          "url": "https://www.instagram.com/nitzan_shebagan/p/DdpwQhYjHXh/",
+          "kind": "site"
+        }
+      ],
+      "media": [],
+      "cover": null,
+      "checkedAt": "2026-09-24T07:18:00+03:00"
+    },
+    {
+      "status": "available",
+      "media": [],
+      "cover": null,
+      "checkedAt": "2026-09-24T07:25:00+03:00",
+      "id": "offres",
+      "title": "DreamNova · Démonstrations & offres",
+      "category": "Applications",
+      "summary": "Essayer Ava, la réceptionniste vocale IA, et découvrir les offres du studio : agents vocaux, sites, automatisation et recherche documentaire.",
+      "url": "https://dreamnova-voice-demo.vercel.app/",
+      "accent": "#776caa",
+      "mark": "AVA",
+      "deliverables": [
+        "Démonstration vocale interactive",
+        "Quatre offres en français",
+        "Quatre offres en anglais"
+      ],
+      "notes": [
+        "Les offres détaillent leur périmètre, leurs délais et leurs modalités. Consultez la page de l’offre avant toute commande."
+      ],
+      "links": [
+        {
+          "label": "Essayer Ava",
+          "url": "https://dreamnova-voice-demo.vercel.app/",
+          "kind": "site"
+        },
+        {
+          "label": "7-day automation sprint · English",
+          "url": "https://dreamnova.studio/automation-sprint/en/",
+          "kind": "site"
+        },
+        {
+          "label": "sprint automatisation livré en 7 jours",
+          "url": "https://dreamnova.studio/automation-sprint/",
+          "kind": "site"
+        },
+        {
+          "label": "5-day conversion-site sprint · English",
+          "url": "https://dreamnova.studio/sites/en/",
+          "kind": "site"
+        },
+        {
+          "label": "sprint site de conversion livré en 5 jours",
+          "url": "https://dreamnova.studio/sites/",
+          "kind": "site"
+        },
+        {
+          "label": "10-day private RAG proof of concept · English",
+          "url": "https://dreamnova.studio/rag-poc/en/",
+          "kind": "site"
+        },
+        {
+          "label": "POC RAG privé livré en 10 jours",
+          "url": "https://dreamnova.studio/rag-poc/",
+          "kind": "site"
+        },
+        {
+          "label": "48-hour AI voice-agent pilot · English",
+          "url": "https://dreamnova.studio/voice/en/",
+          "kind": "site"
+        },
+        {
+          "label": "pilote d’agent vocal IA livré en 48 h",
+          "url": "https://dreamnova.studio/voice/",
+          "kind": "site"
+        }
+      ]
+    },
+    {
+      "status": "available",
+      "media": [],
+      "cover": null,
+      "checkedAt": "2026-09-24T07:25:00+03:00",
+      "id": "tikoun-aolam",
+      "title": "Tikoun Aolam",
+      "category": "Sites & expériences",
+      "summary": "Les boutiques et contenus publics de Tikoun Aolam, avec des accès distincts pour la France et Israël.",
+      "url": "https://tikoun-aolam.fr/",
+      "accent": "#527e77",
+      "mark": "TA",
+      "deliverables": [
+        "Vitrine France",
+        "Vitrine Israël",
+        "Article Yom Kippour sur le site France"
+      ],
+      "notes": [
+        "Les liens ouvrent les vitrines publiques existantes. Certains parcours de commande et notifications font encore l’objet de vérifications."
+      ],
+      "links": [
+        {
+          "label": "Boutique France",
+          "url": "https://tikoun-aolam.fr/",
+          "kind": "site"
+        },
+        {
+          "label": "Boutique Israël",
+          "url": "https://tikoun-aolam.com/",
+          "kind": "site"
+        },
+        {
+          "label": "Yom Kippour · article France",
+          "url": "https://tikoun-aolam.fr/blogs/news/yom-kippour-2026",
+          "kind": "site"
+        }
+      ]
     }
   ]
 }

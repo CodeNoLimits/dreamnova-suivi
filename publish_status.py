@@ -36,15 +36,15 @@ def check_public_page(url):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--id", required=True, choices=("dreamnova-classic", "dreamnova-world", "keren", "woodeex", "suno-cours", "reels", "kosher-option", "adaptive-dj"))
-    parser.add_argument("--status", required=True, choices=("live", "working"))
+    parser.add_argument("--id", required=True)
+    parser.add_argument("--status", required=True, choices=("available", "review", "live", "working"))
     parser.add_argument("--url", default="")
     parser.add_argument("--summary", required=True)
     parser.add_argument("--proof", required=True)
     parser.add_argument("--handover", default="")
     args = parser.parse_args()
-    if args.status == "live" and not args.url:
-        parser.error("--status live requires --url")
+    if args.status in ("live", "available") and not args.url:
+        parser.error("--status available requires --url")
     if args.url:
         check_public_page(args.url)
     if args.handover:
@@ -54,13 +54,20 @@ def main():
         fcntl.flock(lock, fcntl.LOCK_EX)
         run("git", "pull", "--rebase", "origin", "main")
         data = json.loads(DATA.read_text())
-        project = next(p for p in data["projects"] if p["id"] == args.id)
-        project.update(status=args.status, url=args.url, summary=args.summary, proof=args.proof)
+        project = next((p for p in data["projects"] if p["id"] == args.id), None)
+        if project is None:
+            parser.error("Unknown project id; use an id from status.json")
+        status = {"live": "available", "working": "review"}.get(args.status, args.status)
+        project.update(status=status, summary=args.summary, proof=args.proof)
+        if args.url:
+            project["url"] = args.url
+        project["checkedAt"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
         if args.handover:
             project["handover"] = args.handover
         data["updatedAt"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
         DATA.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
-        run("git", "add", "status.json")
+        run(sys.executable, "build_portal.py")
+        run("git", "add", "status.json", "index.html", "projets")
         run("git", "-c", "user.name=DreamNova", "-c", "user.email=codenolimits@gmail.com", "commit", "-m", f"docs: update {args.id} project status")
         run("git", "push", "origin", "main")
         expected = data["updatedAt"]
