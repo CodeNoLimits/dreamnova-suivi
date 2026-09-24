@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T03:15:04+00:00",
+  "updatedAt": "2026-09-24T03:26:28+00:00",
   "projects": [
     {
       "id": "dreamnova-classic",
@@ -38,8 +38,8 @@
       "status": "live",
       "url": "https://woodeex-watch-2409.vercel.app/",
       "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/woodeex.html",
-      "summary": "Page mobile de revue : 5 pilotes précédents et 4 prises alternatives de 15 s, consultables et téléchargeables séparément.",
-      "proof": "9/9 lectures démarrées dans le navigateur ; 4 nouvelles prises : décodage intégral sans erreur, Whisper large 52/52 + 57/57 + 38/40 + 61/64 mots, copies publiques SHA-256 identiques. Les prises restent des scènes séparées."
+      "summary": "Page de revue : 2 pilotes, 1 variante Grok Imagine Dream aiUltimate, 3 extraits et 4 prises alternatives Runway, tous visionnables et téléchargeables.",
+      "proof": "10 lecteurs publics ; variante Grok 45,7 s contrôlée par transcription 190 mots, inspection visuelle des coupes, décodage complet et lecture navigateur. Ancienne version conservée. Choix voix/jeu encore à David."
     },
     {
       "id": "suno-cours",
