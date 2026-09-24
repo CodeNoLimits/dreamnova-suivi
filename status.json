@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T15:13:57.492491+00:00",
+  "updatedAt": "2026-09-24T15:33:33.718295+00:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -386,7 +386,7 @@
       "status": "available",
       "media": [],
       "cover": null,
-      "checkedAt": "2026-09-24T07:25:00+03:00",
+      "checkedAt": "2026-09-24T15:33:33.717842+00:00",
       "id": "offres",
       "title": "DreamNova · Démonstrations & offres",
       "category": "Applications",
@@ -400,6 +400,7 @@
         "Quatre offres en anglais"
       ],
       "notes": [
+        "Ava répond actuellement en mode guidé identifié lorsque son fournisseur d’IA est indisponible. Le fonctionnement génératif complet reste à rétablir.",
         "Les offres détaillent leur périmètre, leurs délais et leurs modalités. Consultez la page de l’offre avant toute commande."
       ],
       "links": [
@@ -505,14 +506,14 @@
     {
       "title": "DreamNova Studio",
       "state": "Mise à jour publiée",
-      "done": "Les univers FR, EN et HE sont disponibles. Le carrousel mobile et son dégagement au-dessus du dock ont été corrigés ; le parcours dentistes hébreu et ses prix en shekels ont été contrôlés.",
-      "next": "Poursuivre les parcours sectoriels et suivre les demandes réelles reçues depuis les offres."
+      "done": "Les six parcours 2D/3D FR, EN et HE sont publiés, avec galeries et offres. Quatre parcours de paiement ont été ouverts sans transaction. Un film de présentation de 2 min 38 s a été remis en privé.",
+      "next": "Rétablir le fournisseur génératif d’Ava, actuellement en mode guidé identifié, et suivre les demandes commerciales réelles."
     },
     {
       "title": "Film SABA",
       "state": "Production et cohérence",
-      "done": "La revue de 42 scènes a documenté les raccords, visages et passages audio à reprendre. Les références canoniques servent aux corrections.",
-      "next": "Livrer des plans corrigés et revus avant intégration au film ; les durées, versions et films distincts restent suivis séparément."
+      "done": "Dix-huit rushes Grok Imagine sont documentés, soit environ 4 min 31 s brutes. La sélection visuelle reste à contrôler pour le son et les raccords ; elle n’est pas intégrée au master.",
+      "next": "Le master documenté reste à 20 min 09 s. Poursuivre le montage et la vérification intégrale ; la version d’une heure n’est pas livrée."
     },
     {
       "title": "Livre d’Avraham Ghezi",
@@ -528,9 +529,9 @@
     },
     {
       "title": "Hok Breslev",
-      "state": "Étude et audio en révision",
-      "done": "L’application et les enregistrements disponibles restent accessibles depuis leur fiche.",
-      "next": "Terminer les PDF attendus et vérifier la fidélité du texte et la prononciation avant de qualifier le lot de complet."
+      "state": "Corpus local corrigé · publication en attente",
+      "done": "Le responsable a reconstruit 61 PDF hébreux locaux et rapproché 671 groupes de texte. Le contenu corrigé n’est pas encore déployé.",
+      "next": "Compléter les 122 PDF FR/EN manquants, régénérer les 688 enregistrements périmés ou absents et terminer la relecture éditoriale avant publication."
     },
     {
       "title": "Breslev · Recherche",
@@ -588,9 +589,9 @@
     },
     {
       "title": "Portail et coordination",
-      "state": "Liens centralisés",
-      "done": "Les adresses du mail de centralisation et 80 liens ont répondu aux contrôles. La date affichée est désormais reconstruite depuis le manifeste de publication.",
-      "next": "Contrôler une nouvelle publication toutes les 30 secondes sur les pages ouvertes, conserver la lecture vidéo en cours et intégrer chaque résultat validé."
+      "state": "Bilan du mandat · 18 h 30",
+      "done": "Le portail centralise les liens, téléchargements et résumés vérifiés. La supervision périodique de ce mandat se termine à 18 h 30 ; les projets incomplets restent identifiés.",
+      "next": "Les responsables poursuivent leurs projets actifs. Le portail se met à jour après une nouvelle publication ; son rafraîchissement ne crée pas de nouveaux livrables."
     }
   ]
 }
