@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24T15:39:06+03:00",
+  "updatedAt": "2026-09-24T12:53:17+00:00",
   "projects": [
     {
       "id": "kosher-option",
@@ -127,7 +127,7 @@
       "title": "DreamNova Studio",
       "category": "Sites & expériences",
       "status": "available",
-      "summary": "Les réalisations du studio et un univers immersif renouvelé en huit étapes, en français, anglais et hébreu.",
+      "summary": "DreamNova Studio centralise les créations et les parcours classique et 3D en FR, EN et HE. La version 3D mobile améliorée est en ligne avec carrousel de projets, boutons lisibles et navigation plus rapide.",
       "url": "https://dreamnova.studio/",
       "accent": "#5b62c9",
       "mark": "DN",
@@ -175,7 +175,9 @@
       ],
       "media": [],
       "cover": null,
-      "checkedAt": "2026-09-24T15:39:06+03:00"
+      "checkedAt": "2026-09-24T12:53:17+00:00",
+      "proof": "Contrôle public du 24/09 : FR/EN/HE mobile et bureau 12/12 par le propriétaire ; clic indépendant FR à 390 px, 1/22 vers 2/22, fiche au-dessus du dock avec 30 px de marge, zéro erreur JS. Quatre checkouts Stripe affichent les acomptes FR/EUR, US/USD, CA/CAD et IL/ILS sans débit.",
+      "handover": "https://codenolimits.github.io/dreamnova-suivi/handover/dreamnova.html"
     },
     {
       "id": "ghezi",
